@@ -1,0 +1,260 @@
+/************************************************
+	File name:  custom.css;
+	Author:  Amanda Padilha;
+	Date:  Sep 07, 2022;
+
+	Index
+	0. Reset
+	1. General
+	2. Header
+	3. Images
+	4. Table of Contents
+	5. Stats
+	6. Footer
+
+ ***********************************************/
+ 
+/*************************************
+	0. Reset
+*************************************/
+
+/*************************************
+	1. Body
+*************************************/
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+::selection {
+	background: #ffe0b2;
+	color: #5e35b1;
+
+}
+
+h1 {
+	font-size: 48px;
+	line-height: 120%;
+	font-weight: 300;
+
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 120%;
+	font-weight: 200;
+}
+
+h4 {
+color: #A862EA;
+font-size: 20px;
+font-weight: 600;
+}
+
+h5 {
+
+
+}
+
+/*************************************
+	2. Header
+*************************************/
+header#hero{
+
+color: white;
+background: linear-gradient(120deg, #6545A4, #A862EA)
+}
+
+header nav {
+color: white;
+background: linear-gradient(120deg, #6545A4, #A862EA);
+
+
+-webkit-box-shadow: none;
+box-shadow:  none;
+}
+
+header nav ul a{
+    display: flex;
+}
+
+
+header nav ul li a i{
+	font-size: 18px !important;
+	margin-right: 5px;
+}
+
+
+header #main-message{
+	height: 500px;
+}
+
+header #hero-title h1 {
+	margin-bottom: -4px;
+
+}
+
+header #hero-subtitle h2 {
+	margin-bottom: 24px;
+	margin-top: 16px;
+
+}
+
+header #header-logo {
+
+
+}
+
+header .item-menu {
+
+
+}
+
+#call-to-scroll {
+	color: #6545A4;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 24px;
+
+
+}
+
+ #call-to-scroll i {
+	font-size: 50px;
+
+}
+
+ #call-to-scroll .cta {
+	margin-bottom: -10px;
+
+}
+header a.brand-logo {
+	padding: 0px;
+	margin-top: 10px;
+}
+ 
+ header #main-message .col {
+ 	padding: 0px;
+
+ }
+ 
+ header #main-message a {
+ 	color: #6545A4;
+ 	font-weight: 600;
+
+ }
+
+ header #background-photo {
+
+ background-image: url(../images/back12.png);
+ background-size: 1600px;
+ background-repeat: no-repeat;
+ background-position: 0% 160%;
+ background-attachment: fixed;
+ 
+
+ }
+
+
+
+/*************************************
+	3. Images
+*************************************/
+#images-EJC {
+
+}
+
+#image-title {
+
+
+}
+.padd {
+	padding: 16px 10px 1px 10px;
+}
+
+.card-action a {
+background-color: #A862EA ;
+padding: 0px;
+}
+
+.card-action a:hover {
+background-color: #ffa726;
+color: #6545A4 ;
+}
+
+/*************************************
+	4. Table of Contents
+*************************************/
+#table-hero {
+background: #EAD6FD;
+padding: 20px;
+}
+
+#table-EJC {
+
+}
+
+#table-of-contents-title{
+
+}
+
+#table-of-contents-subtitle{
+
+}
+
+#table-of-contents-body{
+	background: #ffff;
+}
+
+.table-of-contents-colum-title {
+
+
+}
+
+#table-of-contents-colum-items {
+
+
+}
+/*************************************
+	5. Stats
+*************************************/
+#stats-image {
+background-image: url(../images/gincana.png);
+ background-repeat: no-repeat;
+ background-position: 0% 50%;
+ background-attachment: fixed;
+ background-size: 1600px;
+}
+
+#stats-ejc {
+padding: 50px 0px 50px 0px;
+text-shadow: 0px 0px 20px #FFFFFF;
+}
+
+
+.main-stats {
+color: #ffa726;
+font-size: 64px;
+font-weight: 700;
+}
+
+.main-stats-sub {
+color: #6545A4;
+font-size: 14px;
+font-weight: 500;
+
+
+
+}
+/*************************************
+	6. Footer
+*************************************/
+
+footer {
+	color: white;
+	background: linear-gradient(120deg, #6545A4, #A862EA);
+}
+
+#redes-sociais {
+	 display: flex;
+}
