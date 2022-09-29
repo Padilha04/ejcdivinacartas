@@ -45,6 +45,16 @@ h2 {
 	font-weight: 200;
 }
 
+h3 {
+	font-size: 20px;
+	color: #ffa726;
+	font-weight: 500;
+	margin: 0px;
+	line-height: 140%;
+
+	
+}
+
 h4 {
 color: #A862EA;
 font-size: 20px;
@@ -52,9 +62,13 @@ font-weight: 600;
 }
 
 h5 {
-
+font-size: 24px;
+font-weight: 600;
 
 }
+
+
+
 
 /*************************************
 	2. Header
@@ -72,6 +86,11 @@ background: linear-gradient(120deg, #6545A4, #A862EA);
 
 -webkit-box-shadow: none;
 box-shadow:  none;
+
+position: fixed; 
+top: 0; 
+width: 100%;
+z-index: 2;
 }
 
 header nav ul a{
@@ -84,9 +103,26 @@ header nav ul li a i{
 	margin-right: 5px;
 }
 
+header #botaoencontreiro {
+	border:  solid;
+	border-width: 1px;
+	display: flex;
+	height: 38px;
+	margin-top: 12px;
+	padding: 0px 16px 0px 13px;
+	border-radius: 3px;
+	margin-bottom: 14px;
+}
 
+header #botaoparticipe {
+	font-weight: 600;
+
+
+
+}
 header #main-message{
 	height: 500px;
+
 }
 
 header #hero-title h1 {
@@ -125,7 +161,8 @@ header .item-menu {
 }
 
  #call-to-scroll .cta {
-	margin-bottom: -10px;
+	margin-bottom: -2px;
+	font-size: larger;
 
 }
 header a.brand-logo {
@@ -149,72 +186,80 @@ header a.brand-logo {
  background-image: url(../images/back12.png);
  background-size: 1600px;
  background-repeat: no-repeat;
- background-position: 0% 160%;
+ background-position: 0% 100%;
  background-attachment: fixed;
- 
 
  }
 
+ #main-letter {
+	height: 500px;
+ }
 
 
 /*************************************
 	3. Images
 *************************************/
-#images-EJC {
+.card-action {
+	position: absolute;
+	height: 68px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+
+#images-card .btn {
+	position: absolute ;
+	height: 36px;
+	left: 7.66%;
+	right: 7.66%;
+	bottom: 16px;
+	background-color: #ffa726 ;
+	color: #5e35b1 !important ;
+	font-weight: 600;
 
 }
 
-#image-title {
-
-
-}
-.padd {
-	padding: 16px 10px 1px 10px;
+#images-card .btn:hover {
+	background-color: #6545A4;
+	color: #ffa726 !important;
+	
 }
 
-.card-action a {
-background-color: #A862EA ;
-padding: 0px;
+.titulo-card {
+	font-weight: 600;
+	font-size: 16px;
+	display: flex;
+	margin-bottom: 8px;
+	color: #5e35b1;
 }
 
-.card-action a:hover {
-background-color: #ffa726;
-color: #6545A4 ;
-}
-
-/*************************************
-	4. Table of Contents
-*************************************/
-#table-hero {
-background: #EAD6FD;
-padding: 20px;
-}
-
-#table-EJC {
+.date-badge {
+	font-weight: 600;
+	font-size: 12px;
+	padding: 4px 8px 4px 8px;
+	background-color: #ad8ccc;
+	border-radius: 4px;
+	display: flex;
+	width:fit-content;
+	color: white;
 
 }
 
-#table-of-contents-title{
+.date-badge i {
 
+	padding-right: 4px;
 }
 
-#table-of-contents-subtitle{
-
+.paragrafo{
+	padding-top: 8px;
+	
+}
+.card-image img {
+	width: auto;
+	height: auto;
 }
 
-#table-of-contents-body{
-	background: #ffff;
-}
-
-.table-of-contents-colum-title {
-
-
-}
-
-#table-of-contents-colum-items {
-
-
-}
 /*************************************
 	5. Stats
 *************************************/
@@ -228,24 +273,25 @@ background-image: url(../images/gincana.png);
 
 #stats-ejc {
 padding: 50px 0px 50px 0px;
-text-shadow: 0px 0px 20px #FFFFFF;
+text-shadow: 0px 0px 10px #FFFFFF;
 }
 
 
 .main-stats {
 color: #ffa726;
 font-size: 64px;
-font-weight: 700;
+font-weight: 600;
+
 }
 
 .main-stats-sub {
-color: #6545A4;
-font-size: 14px;
-font-weight: 500;
-
+color: #5e35b1;
+font-size: 16pxpx;
+font-weight: 700;
 
 
 }
+
 /*************************************
 	6. Footer
 *************************************/
@@ -258,3 +304,14 @@ footer {
 #redes-sociais {
 	 display: flex;
 }
+
+#redessociais ul li a i {
+	margin-right: 2px;
+}
+
+
+
+
+
+
+
